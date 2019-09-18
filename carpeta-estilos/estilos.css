@@ -1,0 +1,136 @@
+
+/* .navbar{ 
+    background: rgba(0,0,0, .87)!important; 
+ }  */
+.carousel-item-active
+.carousel-item{
+    display: block;
+}
+   
+/* .navbar{
+    display : grid;
+    justify-content: space-between;
+  } */
+.nav-text{
+    font-size: 17px;
+}
+.nav-link{
+    font-size: 17px;
+    margin-right: 0px;
+}
+#imagenvect{
+    width : 125px;
+    height : 125px;
+}
+h1 {
+    /* background: rgba(0,0,0, .87)!important;  */
+    margin-right: auto;
+    margin-left: auto;
+    /* opacity: 0.95; */
+    width : 100%;
+    height: 100%;
+    color: rgb(110, 26, 26);
+    padding: 0%;
+    margin-top: 0px;
+    /* margin-left: 30px; */
+}
+body{
+    background-color: rgba(255, 255, 255, 0.212);
+}
+#clasificacionmaterial{
+    background-color: rgb(65, 65, 65);
+    border: 100px; 
+    border-color: rgb(182, 0, 0);
+}
+#container-cat{
+    /* text-align : center; */
+    border-radius: 15px;
+} 
+.texto-presentación{
+    margin-left: 5px;
+    margin-right: auto;
+    width : 92%;
+}
+.catalogo{
+    border: 2px solid grey;
+    border-radius: 7px;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.05s;
+    transition: 300ms;
+} 
+.catalogo:hover{
+    -webkit-transform:scale(1.05);
+    transform: scale(1.05);
+}
+.catalogo2{
+        -webkit-transition:-webkit-transform 0.3s ease-in-out 0.05s;
+        transition: 300ms;
+} 
+.catalogo2:hover{
+    -webkit-transform:scale(1.05);
+    transform: scale(1.05);
+}
+figcaption{
+    font-size: 25px;
+}
+#materialselector{
+    width: auto;
+    height: 200px;
+}
+/* Estilos para detalle.php */
+.titulo-detalle{
+    color: rgb(110, 26, 26);
+    font-size: 35px;
+    font-weight: initial;
+
+}
+/* #carouselExampleIndicators{
+    height: 200px;
+    width: 50%;
+} */
+.portada{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	height: 375px;
+    object-fit : none;
+}
+#img22{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform:scale(0.5);
+    object-fit : none;
+}
+
+/* ======================================================================== */
+/* estilos para la página p-temporal.php */
+
+.card-body{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+.boton-añadir{
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    width : 100%;
+    
+    position:relative;
+    bottom: 0;
+}
+
+/* ======================================================================== */
+/* estilos para la página detalle.php */
+#select-quant{
+    border : 1px solid rgb(71, 71, 71, .5)!important;
+}
+
+/* ======================================================================== */
+/* estilos para la página visor.php */
+/* #visorimagenes{ */
+    /* background-color: rgb(48, 47, 47, .5)!important; */
+/* } */
